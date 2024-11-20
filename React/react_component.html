@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <script>
+    let root=document.getElementById("root");
+    // step 2 - create react component
+    function Display(){
+        return React.createElement("h1",null,"h1 using react");
+    }
+
+    // step 3 rendering/displaying created component
+    let mainRoot=ReactDOM.createRoot(root);
+    mainRoot.render(
+        React.createdElement(Display)
+    )
+
+    // render() expect element so we have to convert our component into element
+  </script>
+
+</body>
+</html>

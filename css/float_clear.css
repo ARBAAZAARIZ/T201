@@ -22,7 +22,7 @@
 .box2{
     width: 300px;
     border: 2px solid black ;
-    float: left;
+    /* float: left; */
     margin-right: 10px ;
     text-align: center;
     background-color: rgb(158, 210, 210);

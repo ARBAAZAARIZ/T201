@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>
+			add-employee
+		</title>
+		<link rel="C:\T201\Java Spring\4MVC\src\main\resources\templates\addEmployee.css">
+	</head>
+	<body>
+		<h2 th:text="${title}"></h2>
+		<form th:object="${employee_object}" th:method="post" th:action="@{/add-employee}" >
+			<label>Employee Id : </label>
+			<input type="number" th:field="*{id}"> <br> <br>
+			
+			<label>Employee name : </label>
+			<input type="text" th:field="*{name}"> <br> <br>
+						
+			<label>Employee salary : </label>
+			<input type="number" th:field="*{salary}"> <br> <br>
+									
+			<input type="submit">
+		</form>
+	</body>
+</html>

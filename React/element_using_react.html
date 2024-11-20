@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>h1 using react</title>
+</head>
+<body>
+    
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <script>
+    let root=document.getElementById("root");
+    // step 2 create element using react
+    // React.createElement(element,attribute values)
+    let myh1=React.createElement("h1",null,"h1 using react");
+    //  step 3 rendering / display create elemt h1 into react
+    // ReactDOM.render(myh1,root) this will give error in consol
+
+    //  step 4 solution for above code
+    let mainRoot=ReactDOM.createRoot(root);
+    mainRoot.render(myh1)
+
+  </script>
+
+</body>
+</html>

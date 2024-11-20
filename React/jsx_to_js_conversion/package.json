@@ -1,0 +1,16 @@
+{
+  "name": "jsx_to_js_conversion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arbaaz alam",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/preset-react": "^7.25.9",
+    "babel": "^5.8.38"
+  }
+}

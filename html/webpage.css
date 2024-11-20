@@ -1,0 +1,29 @@
+#font1{
+   font-family: Bionic City;
+}
+@font-face {
+    font-family: Bionic City;
+    src: url(Bionic\ City.otf);
+}
+
+h1{
+    border: 1px solid black;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+h2{
+    border: 1px solid black;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+h3{
+    border: 1px solid black;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+h3[title='flower']{
+    background-color: aqua;
+}
